@@ -1,0 +1,6 @@
+{
+  "telemetryLevel": "basic",
+  "server": "https://speedtest.glasfaser-direkt.de",
+  "path": "/results/telemetry.php",
+  "shareURL": "/results/"
+}
