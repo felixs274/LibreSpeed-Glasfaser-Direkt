@@ -4,5 +4,10 @@ Eine benutzerdefinierte [librespeed-cli](https://github.com/librespeed/speedtest
 
 ## Verwendung
 ```bash
-librespeed-cli --server-json https://raw.githubusercontent.com/felixs274/LibreSpeed-Glasfaser-Direkt/refs/heads/main/servers.php
+librespeed-cli \
+  --server-json https://raw.githubusercontent.com/felixs274/LibreSpeed-Glasfaser-Direkt/refs/heads/main/servers.php \
+  --telemetry-level basic \
+  --telemetry-server https://speedtest.glasfaser-direkt.de \
+  --telemetry-path /results/telemetry.php \
+  --telemetry-share /results/
 ```
